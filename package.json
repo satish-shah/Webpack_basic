@@ -1,0 +1,23 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack src/js/app.js dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satish-shah/Webpack_basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satish-shah/Webpack_basic/issues"
+  },
+  "homepage": "https://github.com/satish-shah/Webpack_basic#readme",
+  "devDependencies": {
+    "webpack": "^5.26.2"
+  }
+}
